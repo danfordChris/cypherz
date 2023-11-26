@@ -1,0 +1,154 @@
+div.signupText h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 63px;
+    color: #31af4d;
+    margin-bottom: 10px;
+  }
+  
+  div.signupPage {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  div.fullNameText h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #2f041a;
+    margin-bottom: 5px;
+  }
+  
+  div.fullNameBox input[type="text"] {
+    box-sizing: border-box;
+    width: 280px;
+    height: 40px;
+  
+    background: rgba(199, 237, 208, 0.05);
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+  }
+  
+  div.emailText h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #2f041a;
+    margin-bottom: 5px;
+  }
+  
+  div.emailBox input[type="email"] {
+    box-sizing: border-box;
+    width: 280px;
+    height: 40px;
+  
+    background: rgba(199, 237, 208, 0.05);
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+  }
+  div.IDText h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #2f041a;
+    margin-bottom: 5px;
+  }
+  
+  div.IDBox input[type="text"] {
+    box-sizing: border-box;
+    width: 280px;
+    height: 40px;
+  
+    background: rgba(199, 237, 208, 0.05);
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+  }
+  
+  div.passwordText h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #2f041a;
+    margin-bottom: 5px;
+  }
+  
+  div.passwordBox input[type="password"] {
+    box-sizing: border-box;
+    width: 280px;
+    height: 40px;
+  
+    background: rgba(199, 237, 208, 0.05);
+    border: 1px solid #000000;
+  }
+  
+  div.signupPage input[type="submit"] {
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 280px;
+    height: 40px;
+    background: #31af4d;
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  div.signupPage input[type="submit"]:hover {
+    cursor: pointer;
+    background: #45c361;
+  }
+  div.rememberForget {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    gap: 100px;
+  }
+  
+  div.rememberText {
+    display: flex;
+    gap: 5px;
+  }
+  
+  div.forgotText {
+    display: flex;
+  }
+  
+  div.rememberForget span {
+    font-size: 10px;
+    font-family: "Poppins";
+    /* align-items: center; */
+  }
+  
+  div.logHere {
+    margin-top: 30px;
+    font-size: 12px;
+    font-family: "Poppins";
+  }
+  
+  div.logHere a {
+    cursor: pointer;
+  }
