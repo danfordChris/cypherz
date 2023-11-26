@@ -1,0 +1,126 @@
+div.paymentDetails h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  /* line-height: px; */
+  color: #31af4d;
+  margin-bottom: 10px;
+}
+
+div.paymentPage {
+  margin-top: 20px;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-left: 220px;
+}
+
+div.emailText h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #2f041a;
+  margin-bottom: 5px;
+}
+
+div.emailBox input[type="email"] {
+  box-sizing: border-box;
+  width: 280px;
+  height: 40px;
+
+  background: rgba(199, 237, 208, 0.05);
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+}
+div.passwordText h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #2f041a;
+  margin-bottom: 5px;
+}
+
+div.passwordBox input[type="password"] {
+  box-sizing: border-box;
+  width: 280px;
+  height: 40px;
+
+  background: rgba(199, 237, 208, 0.05);
+  border: 1px solid #000000;
+}
+
+div.paymentPage input[type="submit"] {
+  margin-top: 20px;
+  box-sizing: border-box;
+  width: 280px;
+  height: 40px;
+  background: #31af4d;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+div.loginPage input[type="submit"]:hover {
+  cursor: pointer;
+  background: #45c361;
+}
+div.rememberForget {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+  align-items: center;
+  text-align: center;
+  /* justify-content: center; */
+  gap: 100px;
+}
+
+div.rememberText {
+  display: flex;
+  gap: 5px;
+}
+
+div.forgotText {
+  display: flex;
+}
+
+div.forgotText a {
+  cursor: pointer;
+}
+
+div.forgotText a:hover {
+  color: #45c361;
+}
+
+div.rememberForget span {
+  font-size: 10px;
+  font-family: "Poppins";
+  /* align-items: center; */
+}
+
+div.regHere {
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: "Poppins";
+}
+
+div.regHere a {
+  cursor: pointer;
+}
+
+div.regHere a:hover {
+  color: #45c361;
+}

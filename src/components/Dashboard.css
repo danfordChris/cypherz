@@ -1,0 +1,12 @@
+div.dashboardPage {
+  display: flex;
+  /* justify-content: space-between; */
+  /* gap: 500px; */
+  /* width: 100vw; */
+  margin-top: 50px;
+  margin-left: 220px;
+}
+/* 
+div.searchProduct {
+  padding-right: 200px;
+} */
