@@ -1,5 +1,5 @@
 import "./register.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
@@ -42,7 +42,7 @@ function Register() {
       <input type="submit" value="Sign Up"></input>
       <div className="regHere">
         <Link to="/Login">
-          <span>Don't have an account yet? Register one here!</span>
+          <span>Already have an account? Log in here!</span>
         </Link>
       </div>
     </div>
