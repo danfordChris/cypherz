@@ -1,8 +1,8 @@
 import "./Login.css";
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
-    
     <div className="loginPage">
       <div className="loginText">
         <h2>Log In</h2>
@@ -30,13 +30,15 @@ function Login() {
           <span>Remember Me</span>
         </div>
         <div className="forgotText">
+          <a>
           <span>Forgot Password?</span>
+          </a>
         </div>
       </div>
       <div className="regHere">
-        <a href="register.js">
+        <Link to="/register">
           <span>Don't have an account yet? Register one here!</span>
-        </a>
+        </Link>
       </div>
     </div>
   );

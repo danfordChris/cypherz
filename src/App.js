@@ -7,6 +7,9 @@ import Home from './components/LandingPage';
 import Services from './components/Services';
 import Offers from './components/Darshbord';
 import About from './components/About';
+import Profile from './components/profile/Profile';
+import Login from './components/login/Login';
+import Register from './components/register/register';
 
 
 
@@ -16,7 +19,9 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          {/* <Route path="/profile" element={<Profile />} /> */}
+          <Route path="/Login" element={<Login />} /> 
+          <Route path="/register" element={<Register />} /> 
+          <Route path="/profile" element={<Profile />} /> 
           <Route path="/services" element={<Services />} />
           <Route path="/offers" element={<Offers />} />
           <Route path="/about" element={<About />} />

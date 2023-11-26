@@ -6,7 +6,7 @@ const user = {
   name: "Tom Cook",
   email: "tom@example.com",
   imageUrl:
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    "https://cdn-icons-png.flaticon.com/512/1144/1144760.png",
 };
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -15,8 +15,8 @@ const navigation = [
   { name: "About", href: "/about", current: false },
 ];
 const userNavigation = [
-  { name: "Your Profile", href: "#" },
-  { name: "Sign out", href: "#" },
+  { name: "Your Profile", href: "/Profile" },
+  { name: "Sign out", href: "/Login" },
 ];
 
 function classNames(...classes) {
@@ -25,7 +25,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <>
+   
       <div className="min-h-full">
         <Disclosure as="nav" className="bg-green-800">
           {({ open }) => (
@@ -187,6 +187,6 @@ export default function Navbar() {
           )}
         </Disclosure>
       </div>
-    </>
+  
   );
 }
